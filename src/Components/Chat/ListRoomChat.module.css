@@ -1,0 +1,23 @@
+.listRoomChatWrapper {
+  width: 25%;
+  min-height: 100vh;
+  border-right: 1px solid #ddd;
+  text-align: center;
+}
+
+.searchBox {
+  border-bottom: 1px solid #ddd;
+  padding: 20px 30px;
+  margin: 0 auto;
+}
+
+.searchBox input {
+  /* height: 30px; */
+  padding: 10px 20px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+}
+
+.searchBox input:focus {
+  outline: none;
+}

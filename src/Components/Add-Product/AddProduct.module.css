@@ -1,0 +1,53 @@
+.formWrapper h2 {
+  margin: 0;
+}
+
+.formContent {
+  margin: 20px 20px;
+  padding: 5px 20px;
+  border: 1px solid black;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.input {
+  margin-bottom: 10px;
+  width: 500px;
+}
+
+.input input {
+  width: 80%;
+  /* height: 100%; */
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 7px 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+.input p {
+  font-weight: 400;
+  margin: 0;
+}
+
+.input textarea {
+  outline: none;
+  font-size: 16px;
+}
+
+.btn {
+  color: #04aa6d;
+  background-color: white;
+  border: 1px solid #04aa6d;
+  padding: 20px 40px;
+  font-size: 24px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #04aa6d;
+  cursor: pointer;
+}

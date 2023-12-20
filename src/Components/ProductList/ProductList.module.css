@@ -1,0 +1,97 @@
+.wrapperContent {
+  width: 90%;
+}
+
+.headerList {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  align-items: center;
+  width: 100%;
+}
+
+.tableList {
+  margin: 10px 10px;
+  width: 100%;
+}
+
+.tableList th,
+td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #04aa6d;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tableList tr:hover {
+  background-color: coral;
+}
+
+.editBtn {
+  color: #04aa6d;
+  border: 1px solid #04aa6d;
+  background-color: white;
+}
+
+.editBtn:hover {
+  color: white;
+  background-color: #04aa6d;
+  cursor: pointer;
+}
+
+.deleteBtn {
+  color: red;
+  border: 1px solid red;
+  background-color: white;
+}
+
+.deleteBtn:hover {
+  color: white;
+  background-color: red;
+  cursor: pointer;
+}
+
+.btnNew {
+  color: #04aa6d;
+  background-color: white;
+  border: 1px solid #04aa6d;
+  padding: 20px 40px;
+}
+
+.btnNew:hover {
+  color: white;
+  background-color: #04aa6d;
+  cursor: pointer;
+}
+
+.searchForm input {
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 15px 20px;
+  width: 30%;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.searchForm input:focus {
+  outline: none;
+}
+.searchForm button {
+  padding: 18px 20px;
+  border: 1px solid #04aa6d;
+  background: none;
+  color: #04aa6d;
+}
+
+.searchForm button:hover {
+  color: white;
+  background-color: #04aa6d;
+}

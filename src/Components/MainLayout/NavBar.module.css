@@ -1,0 +1,47 @@
+.NavBar {
+  width: 40vh;
+  border-right: rgb(202, 198, 198) 1px solid;
+}
+.NavBar h2 {
+  color: blue;
+  text-align: center;
+  border-bottom: rgb(202, 198, 198) 1px solid;
+}
+
+.navContent {
+  padding-left: 20px;
+}
+
+.navitems p {
+  color: rgb(202, 198, 198);
+  font-size: 16px;
+}
+
+.navitems ul {
+  padding-left: 5px;
+  list-style: none;
+}
+
+.navitems li {
+  margin-bottom: 5px;
+}
+
+.navitems a {
+  padding-left: 8px;
+
+  text-decoration: none;
+}
+
+.navitems button {
+  background-color: white;
+  border: none;
+  margin-left: 5px;
+}
+
+.navitems button:hover {
+  cursor: pointer;
+}
+
+.active {
+  color: orange;
+}

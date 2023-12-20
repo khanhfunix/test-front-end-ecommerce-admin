@@ -1,0 +1,28 @@
+.responseBox {
+  height: 20%;
+  /* background-color: red; */
+  width: 100%;
+}
+
+.formChat {
+  display: flex;
+}
+.formChat input {
+  min-width: 90%;
+  border: none;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding-left: 10px;
+  font-size: 24px;
+}
+.formChat button {
+  padding: 20px 20px;
+  font-size: 24px;
+  background: none;
+  border: 1px solid #ddd;
+  min-width: 10%;
+  text-align: center;
+}
+.formChat input:focus {
+  outline: none;
+}

@@ -1,0 +1,37 @@
+.tableList {
+  margin: 10px 10px;
+  width: 100%;
+  font-size: 13px;
+}
+
+.tableList th,
+td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #04aa6d;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tableList tr:hover {
+  background-color: coral;
+}
+
+.tableList button {
+  background-color: #04aa6d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
+
+.tableList button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
